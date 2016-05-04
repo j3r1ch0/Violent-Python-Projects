@@ -1,6 +1,6 @@
 import socket
 
-target_host = "www.google.com"
+target_host = "www.reddit.com"
 target_port = 80
 
 #Create a socket object
@@ -13,7 +13,7 @@ client.connect((target_host, target_port))
 
 #Send some data!
 
-client.send(("GET / HTTP/1.1/r\nHost: http://google.com\r\n\r\n"))
+client.send(("GET / HTTP/1.1/r\nHost: http://reddit.com\r\n\r\n"))
 
 #Receive some data!
 
